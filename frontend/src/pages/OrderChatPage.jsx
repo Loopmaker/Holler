@@ -7,7 +7,6 @@ import {
   Channel,
   ChannelHeader,
   MessageList,
-  MessageInput,
   Thread,
   Window,
 } from "stream-chat-react";
@@ -78,7 +77,6 @@ function OrderChatPage() {
             <Window>
               <ChannelHeader />
               <MessageList />
-              <MessageInput focus />
             </Window>
             <Thread />
           </Channel>
